@@ -1,0 +1,107 @@
+/* CONFIG GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: #f5f5f5;
+    color: #333
+}
+
+html, body { 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* MENU */ 
+.header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+    flex-shrink: 0;
+}
+
+.nav ul { 
+    display: flex;
+    list-style: none;
+}
+
+.nav li { 
+    margin: 0px 10px; 
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* SECTION SOBRE */
+.sobre { 
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.sobre-container { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 20px;
+}
+
+.sobre-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* SECTION PROJETO */
+
+.projetos { 
+    padding: 40px 20px;
+}
+
+.projetos-container { 
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.projeto { 
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+}
+
+/* SECTION FOOTER */ 
+.footer { 
+    flex-shrink: 0;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: auto;
+}
+
+.div-center { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 2px dashed #4CAF50
+}
